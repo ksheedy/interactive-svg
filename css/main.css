@@ -24,6 +24,10 @@
   transition: all .5s linear;
 }
 
-#bear:hover #left-ear, #right-ear {
+#bear:hover #left-ear{
+  transform: translateY(20px);
+}
+
+#bear:hover #right-ear {
   transform: translateY(20px);
 }
