@@ -15,3 +15,15 @@
     transform: translatex(20px);
   }
 }
+
+#left-ear {
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear, #right-ear {
+  transform: translateY(20px);
+}
