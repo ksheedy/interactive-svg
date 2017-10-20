@@ -1,0 +1,17 @@
+#left-eye {
+  animation: eye-translate 3s ease infinite;
+}
+
+#right-eye {
+  animation: eye-translate 3s ease infinite;
+}
+
+@keyframes eye-translate {
+  0% {
+    transform: translatex(0px);
+  }
+
+  100% {
+    transform: translatex(20px);
+  }
+}
